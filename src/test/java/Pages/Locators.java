@@ -10,7 +10,7 @@ public class Locators extends Parents{
     public Locators() {
         PageFactory.initElements(GWD.getDriver(),this);
     }
-
+//a[text()='Admin Page']
 
     @FindBy(xpath="//a[text()='Register']")
     public WebElement registerBtn;
